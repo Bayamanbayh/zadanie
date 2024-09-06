@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'rest_framework_swagger',
-    'drf_yasg',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
@@ -171,4 +171,3 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 
-ACCOUNT_FORMS = {'signup': 'car.forms.CustomSignupForm'}
